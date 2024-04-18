@@ -1,0 +1,19 @@
+print("starting line")
+a=[11,22,33,44]
+try:
+   #a=10/5
+   #print(a[2])
+   print(y)
+except ZeroDivisionError:
+    print("exception raised due to zero division error")
+except IndexError:
+    print("exception raised due to index out of range")
+except NameError:
+    print("exception raised due to undefined variable")
+except:
+    print("some exception raised")
+else:
+    print("no exception raised,everything worked perfectly")
+finally:
+    print("this is a final block")
+    print("outside try block")        
